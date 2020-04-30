@@ -19,26 +19,26 @@ skin: "/assets/css/skins/default.css"
 locale: en-US
 title: "Ghifari D Ramadhan"
 description: "Solving imaginary scaling issues"
-baseurl: # the subpath of your site, e.g. "/blog"
+baseurl: "" # the subpath of your site, e.g. "/blog"
 url: "https://ghifari.dev/"
 logo: # path of site logo, e.g. "/images/logo.png"
 date_format: "%B %-d, %Y"
-read_time: # reading time estimates, e.g. true
+read_time: true # reading time estimates, e.g. true
 words_per_minute: 200
 mathjax:
-  enable: # MathJax equations, e.g. true, false (default)
-  combo:  # "tex-svg" (default), "tex-mml-chtml", etc.: docs.mathjax.org/en/latest/web/components/combined.html
-  tags:  # "none", "ams" (default), "all"
+  enable: false # MathJax equations, e.g. true, false (default)
+  combo:  tex-svg # "tex-svg" (default), "tex-mml-chtml", etc.: docs.mathjax.org/en/latest/web/components/combined.html
+  tags:  ams # "none", "ams" (default), "all"
 google_fonts:
   - name: "Source Sans Pro"
     weights: "400,400i,700,700i"
   - name: "Lora"
     weights: "400,400i,700,700i"
-google_analytics: # Google Analytics id, e.g. "UA-NNNNNNNN-N"
-disqus:
-  shortname: # Disqus shortname, e.g. "my_disqus_shortname"
+# google_analytics: # Google Analytics id, e.g. "UA-NNNNNNNN-N"
+# disqus:
+#   shortname: # Disqus shortname, e.g. "my_disqus_shortname"
 twitter:
-  username: # site's Twitter username, e.g. "mmistakes"
+  username: gdwikir # site's Twitter username, e.g. "mmistakes"
 
 # Liquid
 liquid:
@@ -90,15 +90,15 @@ defaults:
       share: true
 
 # Site Author
-author:
-  name:
-  picture:
-  email:
-  twitter:
-  links:
-    - title:
-      url:
-      icon:
+# author:
+#   name:
+#   picture:
+#   email:
+#   twitter:
+#   links:
+#     - title:
+#       url:
+#       icon:
 
 # Footer Links
 footer_links:
