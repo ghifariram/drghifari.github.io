@@ -6,8 +6,8 @@
   url: /posts/
 - title: Tags
   url: /tags/
-- title: Data Engineering
-  url: /dataengineering/
+- title: Categories
+  url: /categories/
 - title: Search
   url: /search/
 - title: About
