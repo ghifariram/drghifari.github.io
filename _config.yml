@@ -95,10 +95,10 @@ defaults:
 
 # Site Author
 author:
-  name: Michael Rose
-  picture: /images/michael-rose-photo.jpg
-  email:
-  twitter: mmistakes
+  name: Ghifari Dwiki Ramadhan
+  picture: /images/ghifari.png
+  email: dr.ghifari@gmail.com
+  twitter: gdwikir
   links:
     - title: Twitter
       url: https://twitter.com/gdwikir
