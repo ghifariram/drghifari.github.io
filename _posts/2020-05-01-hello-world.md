@@ -9,9 +9,9 @@ _Assalamualaikum warahmatullah_. I bought [ghifari.dev][ghifari] domain like 1 y
 
 Again, as the ordinary human-being, "I don't have time to do that" and "Let's do it tomorrow" are coming to my mind in a daily basis.
 
-As you may already know, COVID-19 pandemic forces us to [#StayAtHome][stayathome]. We now have plenty of free time. I need to create my to-do list to keeps me productive, maintaining a blog is one of them (because too much _rebahan_ will kill you).
+As you may already know, COVID-19 pandemic forces us to [#StayAtHome][stayathome]. We now have plenty of free time. I need to create my to-do list to keeps me sane, maintaining a blog is one of them (because too much _rebahan_ will kill you).
 
-This blog will contain mostly about something that i love: Books, Software Engineering, Data Engineering, DevOps, and Technology in general. Some of them might be in Bahasa, but most of them will be in English. I also will post about my personal life, even I know that nobody gives a single care.
+This blog will contain mostly about something that i love: Software Engineering, Data Engineering, DevOps, Books,  and Technology in general. Some of them might be in Bahasa, but most of them will be in English. I also will post about my personal life, even I know that nobody gives a single care.
 
 So, yea, please enjoy.
 
