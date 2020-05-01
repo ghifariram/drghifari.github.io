@@ -10,11 +10,11 @@ github_username:  drghifari
 # Build settings
 locale: en-US
 remote_theme: "mmistakes/so-simple-theme@3.2.0"
-logo: ""
+logo: "images/gdr-logo.jpg"
 date_format: "%-d %B %Y"
 read_time: true
 words_per_minute: 200
-
+skin: "/assets/css/skins/dark.css"
 mathjax:
   enable: true
 #  combo: "tex-mml-chtml"
