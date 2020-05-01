@@ -14,7 +14,7 @@ logo: "images/gdr-logo.jpg"
 date_format: "%-d %B %Y"
 read_time: true
 words_per_minute: 200
-skin: "/assets/css/skins/dark.css"
+skin: "/assets/css/skins/default.css"
 mathjax:
   enable: true
 #  combo: "tex-mml-chtml"
