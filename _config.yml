@@ -1,30 +1,20 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+title: Ghifari's Blog
+email: dr.ghifari@gmail.com
+description: >-
+  Solving imaginary scaling issues
+baseurl: ""
+url: "https://ghifari.dev"
+twitter_username: gdwikir
+github_username:  drghifari
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-theme: jekyll-theme-so-simple
-# remote_theme: mmistakes/so-simple-theme
-skin: "/assets/css/skins/default.css"
+# Build settings
 locale: en-US
-title: "So Simple Development Site"
-description: "A simple Jekyll theme for words and pictures."
-baseurl: "" # the subpath of your site, e.g. "/blog"
-url: "https://ghifari.dev" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-logo: "/images/so-simple-site-logo.png" # path of site logo, e.g. "/assets/images/logo.png"
-date_format: "%B %-d, %Y"
+remote_theme: "mmistakes/so-simple-theme@3.2.0"
+logo: ""
+date_format: "%-d %B %Y"
 read_time: true
 words_per_minute: 200
+
 mathjax:
   enable: true
 #  combo: "tex-mml-chtml"
@@ -111,26 +101,49 @@ author:
   twitter: mmistakes
   links:
     - title: Twitter
-      url: https://twitter.com/mmistakes
+      url: https://twitter.com/gdwikir
       icon: fab fa-twitter-square
     - title: Instagram
-      url: https://instagram.com/mmistakes
+      url: https://instagram.com/gdwikir
       icon: fab fa-instagram
     - title: GitHub
-      url: https://github.com/mmistakes
+      url: https://github.com/drghifari
       icon: fab fa-github-square
+    - title: LinkedIn
+      url: https://linkedin.com/in/gdwikir
+      icon: fab fa-linkedin
 
 # Footer Links
 footer_links:
   - title: Twitter
-    url: https://twitter.com/mmistakes
+    url: https://twitter.com/gdwikir
     icon: fab fa-twitter-square
   - title: Instagram
-    url: https://instagram.com/mmistakes
+    url: https://instagram.com/gdwikir
     icon: fab fa-instagram
   - title: GitHub
-    url: https://github.com/mmistakes
+    url: https://github.com/drghifari
     icon: fab fa-github-square
-  - title: Feed
-    url: atom.xml
-    icon: fas fa-rss-square
+  - title: LinkedIn
+    url: https://linkedin.com/in/gdwikir
+    icon: fab fa-linkedin
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
