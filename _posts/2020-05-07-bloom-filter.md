@@ -53,7 +53,7 @@ Again, there is a possibility that Bloom Filter will generate False Positive res
 
 #### Implementation
 
-**Warning**! This implementation is for academic purposes only, not intended to be use in the real world/production environment. There are already many implementation for Bloom Filter e.g Python's [bloom-filter][pybloom] or Google's [Guava][guava], so you can use them right away.
+**Warning**! This implementation is for academic purposes only, not intended to be used in the real world/production environment. There are already many implementation for Bloom Filter e.g Python's [bloom-filter][pybloom] or Google's [Guava][guava], so you can use them right away.
 {: .notice--warning}
 
 First, we need to calculate Bit Array size needed by Bloom Filter, based on the _item size_ and _False Positive probability_.
