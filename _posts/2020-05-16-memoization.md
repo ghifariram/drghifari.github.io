@@ -134,7 +134,7 @@ def fibonacci(n):
 n = int(input())
 print(fibonacci(n))
 ```
-I added a dictionary called `memo`. Whenever `n` is already on the memo, we simply get the value from memo instead of re-counting the fibonacci value, and when `n` is not in Memo, we count the fibonacci number of `n` and store it on the memo. Now let's see the processing time.
+I added a dictionary called `memo`. Whenever `n` is already on the memo, we simply get the value from memo instead of re-counting the fibonacci value, and when `n` is not in Memo, we count the fibonacci number of `n` and store it on the memo. See how Memoization extremely improves the processing time:
 ```bash
 $ time python3 fibo.py <<< 30
 832040
@@ -165,7 +165,7 @@ user    0m0.029s
 sys     0m0.003s
 ```
 
-See how Memoization extremely improves the processing time. Previously without Memo, we need 29 seconds to generate fibonacci of 40, now with Memo, it only took 0.02 seconds! Even better, we can generate fibonacci of 500 with almost the same processing time. You can also see that when we do Memoization, all the input parameters only processed once now: 
+Previously without Memo, we need 29 seconds to generate fibonacci of 40, now with Memo, it only took 0.02 seconds! Even better, we can generate fibonacci of 500 with almost the same processing time. You can also see that when we do Memoization, all the input parameters only processed once now: 
 ```bash
 $ python3 fibo.py <<< 30 | sort | uniq -c
       1 832040
