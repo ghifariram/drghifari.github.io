@@ -186,7 +186,7 @@ $ python3 fibo.py <<< 30 | sort | uniq -c
       1 fibonacci(21)
 ...
 ```
-In the [webinar][webinar], Misof also shows us a more advanced example in using Memoization, but I think the fibonacci example is enough to give us this main idea on how Memoization works. If you are interested, you can find the recorded webinar on [topcoder][webinar], or [youtube][youtube].
+In the [webinar][webinar], Misof also shows us a more advanced example in using Memoization, but I think the fibonacci example is enough to give us the main idea on how Memoization works. If you are interested, you can find the recorded webinar on [topcoder][webinar], or [youtube][youtube].
 
 _Wassalamualaikum warahmatullah_
 
