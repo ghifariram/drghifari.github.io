@@ -134,7 +134,7 @@ def fibonacci(n):
 n = int(input())
 print(fibonacci(n))
 ```
-I added a dictionary called `memo`, and whenever `n` is already on the memo, we simply get the value from memo instead of re-counting the fibonacci value. Let's see the processing time.
+I added a dictionary called `memo`. Whenever `n` is already on the memo, we simply get the value from memo instead of re-counting the fibonacci value, and when `n` is not in Memo, we count the fibonacci number of `n` and store it on the memo. Now let's see the processing time.
 ```bash
 $ time python3 fibo.py <<< 30
 832040
